@@ -1,6 +1,6 @@
 version : "3.3"
 services :
   web :
-     image: "182484/notes-app-Jenkins:latest"
+     image: "182484/notes-app-jenkins:latest"
      ports :
          - "8000:8000"
