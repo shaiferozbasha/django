@@ -5,7 +5,7 @@ pipeline {
         }
     }
     stages {
-        stage("code clone"){
+        stage("code to clone"){
             steps{
                 git url :"https://github.com/shaiferozbasha/django.git", branch: "main"
             }
